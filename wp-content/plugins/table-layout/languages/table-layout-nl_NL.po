@@ -1,0 +1,657 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Responsive Table Layout\n"
+"POT-Creation-Date: 2016-03-14 22:04+0100\n"
+"PO-Revision-Date: 2016-03-14 22:19+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: table-layout.php\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: includes/editor.php:161
+msgid "Untitled"
+msgstr "Zonder titel"
+
+#: includes/editor.php:232
+msgid "Table Layout Editor"
+msgstr "Tabelopmaak"
+
+#: includes/editor.php:233
+msgid "Default Editor"
+msgstr "Standaard Editor"
+
+#: includes/editor.php:250 includes/updater.php:235
+msgid "Table Layout"
+msgstr "Tabelopmaak"
+
+#: includes/editor.php:256
+msgid "Add Row"
+msgstr "Rij toevoegen"
+
+#: includes/editor.php:323
+msgid "Are you sure you want to delete this component?"
+msgstr "Weet u zeker dat u dit wilt verwijderen?"
+
+#: includes/editor.php:324 includes/form.php:192
+msgid "Add"
+msgstr "Toevoegen"
+
+#: includes/editor.php:325
+msgid "Edit"
+msgstr "Bewerken"
+
+#: includes/editor.php:326
+msgid "Copy"
+msgstr "Kopiëren"
+
+#: includes/editor.php:327
+msgid "Delete"
+msgstr "Verwijderen"
+
+#: includes/editor.php:328
+msgid "Toggle"
+msgstr "Openen/sluiten"
+
+#: includes/editor.php:329
+msgid "Toggle full screen"
+msgstr "Volledig/standaard scherm"
+
+#: includes/editor.php:330 includes/shortcodes/column.php:262
+msgid "Width"
+msgstr "Breedte"
+
+#: includes/editor.php:331
+msgid "Increase width"
+msgstr "Breedte vergroten"
+
+#: includes/editor.php:332
+msgid "Decrease width"
+msgstr "Breedte verkleinen"
+
+#: includes/editor.php:333
+msgid "source Code"
+msgstr "broncode"
+
+#: includes/editor.php:334 includes/shortcodes.php:39
+msgid "ID"
+msgstr "ID"
+
+#: includes/editor.php:335 includes/shortcodes.php:49
+msgid "Class"
+msgstr "Klasse"
+
+#: includes/editor.php:336
+msgid "Background image"
+msgstr "Achtergrond afbeelding"
+
+#: includes/editor.php:337 includes/shortcodes/column.php:263
+msgid "Push"
+msgstr "Duw"
+
+#: includes/editor.php:338 includes/shortcodes/column.php:264
+msgid "Pull"
+msgstr "Trek"
+
+#: includes/form.php:193
+msgid "Remove"
+msgstr "Verwijderen"
+
+#: includes/shortcodes.php:36
+msgid "Attributes"
+msgstr "Eigenschappen"
+
+#: includes/shortcodes.php:60 includes/shortcodes/row.php:50
+#: includes/shortcodes/row.php:52
+msgid "Layout"
+msgstr "Opmaak"
+
+#: includes/shortcodes.php:63 includes/shortcodes.php:146
+msgid "Alignment"
+msgstr "Uitlijning"
+
+#: includes/shortcodes.php:73
+msgid "left"
+msgstr "links"
+
+#: includes/shortcodes.php:74
+msgid "center"
+msgstr "gecentreerd"
+
+#: includes/shortcodes.php:75
+msgid "right"
+msgstr "rechts"
+
+#: includes/shortcodes.php:80
+msgid "Space"
+msgstr "Ruimte"
+
+#: includes/shortcodes.php:90 includes/shortcodes.php:107
+msgid "small"
+msgstr "klein"
+
+#: includes/shortcodes.php:91 includes/shortcodes.php:108
+msgid "medium"
+msgstr "middelmatig"
+
+#: includes/shortcodes.php:92 includes/shortcodes.php:109
+msgid "large"
+msgstr "groot"
+
+#: includes/shortcodes.php:97 includes/shortcodes.php:169
+msgid "Size"
+msgstr "Grootte"
+
+#: includes/shortcodes.php:115
+msgid "Background"
+msgstr "Achtergrond"
+
+#: includes/shortcodes.php:118
+msgid "Image"
+msgstr "Afbeelding"
+
+#: includes/shortcodes.php:128 includes/shortcodes/column.php:54
+msgid "Repeat"
+msgstr "Herhaal"
+
+#: includes/shortcodes.php:138
+msgid "repeat"
+msgstr "herhaal"
+
+#: includes/shortcodes.php:139
+msgid "repeat-x"
+msgstr "herhaal horizontaal"
+
+#: includes/shortcodes.php:140
+msgid "repeat-y"
+msgstr "herhaal verticaal"
+
+#: includes/shortcodes.php:141
+msgid "no-repeat"
+msgstr "geen herhaling"
+
+#: includes/shortcodes.php:156
+msgid "left top"
+msgstr "linksboven"
+
+#: includes/shortcodes.php:157
+msgid "left center"
+msgstr "linksmidden"
+
+#: includes/shortcodes.php:158
+msgid "left bottom"
+msgstr "linksonder"
+
+#: includes/shortcodes.php:159
+msgid "right top"
+msgstr "rechtsboven"
+
+#: includes/shortcodes.php:160
+msgid "right center"
+msgstr "rechtsmidden"
+
+#: includes/shortcodes.php:161
+msgid "right bottom"
+msgstr "rechtsonder"
+
+#: includes/shortcodes.php:162
+msgid "center top"
+msgstr "middenboven"
+
+#: includes/shortcodes.php:163
+msgid "center center"
+msgstr "midden"
+
+#: includes/shortcodes.php:164
+msgid "center bottom"
+msgstr "middenonder"
+
+#: includes/shortcodes.php:179
+msgid "cover"
+msgstr "omslag"
+
+#: includes/shortcodes.php:180
+msgid "contain"
+msgstr "behoud"
+
+#: includes/shortcodes/button.php:44
+msgid "Button"
+msgstr "Knop"
+
+#: includes/shortcodes/button.php:54
+msgid "Button Settings"
+msgstr "Knop instellingen"
+
+#: includes/shortcodes/button.php:58 includes/shortcodes/heading.php:103
+msgid "General"
+msgstr "Algemeen"
+
+#: includes/shortcodes/button.php:61 includes/shortcodes/heading.php:106
+msgid "Text"
+msgstr "Tekst"
+
+#: includes/shortcodes/button.php:71
+msgid "URL"
+msgstr "URL"
+
+#: includes/shortcodes/button.php:81
+msgid "New Window"
+msgstr "Nieuw Scherm"
+
+#: includes/shortcodes/button.php:162
+msgid "url:"
+msgstr "url:"
+
+#: includes/shortcodes/button.php:163
+msgid "new window:"
+msgstr "nieuw scherm:"
+
+#: includes/shortcodes/button.php:164 includes/shortcodes/heading.php:157
+#: includes/shortcodes/text.php:117
+msgid "id:"
+msgstr "id:"
+
+#: includes/shortcodes/button.php:165 includes/shortcodes/heading.php:158
+#: includes/shortcodes/icon.php:397 includes/shortcodes/text.php:118
+msgid "class:"
+msgstr "klasse:"
+
+#: includes/shortcodes/button.php:166 includes/shortcodes/icon.php:398
+msgid "type:"
+msgstr "type:"
+
+#: includes/shortcodes/button.php:167 includes/shortcodes/heading.php:160
+#: includes/shortcodes/icon.php:400
+msgid "align:"
+msgstr "uitlijning:"
+
+#: includes/shortcodes/button.php:168 includes/shortcodes/heading.php:161
+#: includes/shortcodes/icon.php:401 includes/shortcodes/text.php:119
+msgid "space:"
+msgstr "spaciëring:"
+
+#: includes/shortcodes/button.php:169 includes/shortcodes/icon.php:399
+msgid "size:"
+msgstr "grootte:"
+
+#: includes/shortcodes/button.php:189 includes/shortcodes/column.php:681
+#: includes/shortcodes/heading.php:182 includes/shortcodes/icon.php:456
+#: includes/shortcodes/row.php:164 includes/shortcodes/text.php:150
+#: includes/updater.php:197
+msgid "Update"
+msgstr "Bijwerken"
+
+#: includes/shortcodes/column.php:37
+msgid "Column"
+msgstr "Kolom"
+
+#: includes/shortcodes/column.php:38
+msgid "A responsive column and container of other components."
+msgstr "Een responsieve kolom en container voor andere elementen."
+
+#: includes/shortcodes/column.php:48
+msgid "Column Settings"
+msgstr "Kolom Instellingen"
+
+#: includes/shortcodes/column.php:52
+msgid "Responsiveness"
+msgstr "Responsiviteit"
+
+#: includes/shortcodes/column.php:63 includes/shortcodes/column.php:280
+#: includes/shortcodes/column.php:304 includes/shortcodes/column.php:329
+#: includes/shortcodes/column.php:354 includes/shortcodes/column.php:386
+#: includes/shortcodes/column.php:410 includes/shortcodes/column.php:435
+#: includes/shortcodes/column.php:460 includes/shortcodes/column.php:492
+#: includes/shortcodes/column.php:518 includes/shortcodes/column.php:543
+#: includes/shortcodes/column.php:574 includes/shortcodes/column.php:598
+#: includes/shortcodes/column.php:622 includes/shortcodes/column.php:646
+msgid "1 column - 1/12"
+msgstr "1 kolom - 1/12"
+
+#: includes/shortcodes/column.php:64 includes/shortcodes/column.php:281
+#: includes/shortcodes/column.php:305 includes/shortcodes/column.php:330
+#: includes/shortcodes/column.php:355 includes/shortcodes/column.php:387
+#: includes/shortcodes/column.php:411 includes/shortcodes/column.php:436
+#: includes/shortcodes/column.php:461 includes/shortcodes/column.php:493
+#: includes/shortcodes/column.php:519 includes/shortcodes/column.php:544
+#: includes/shortcodes/column.php:575 includes/shortcodes/column.php:599
+#: includes/shortcodes/column.php:623 includes/shortcodes/column.php:647
+msgid "2 columns - 1/6"
+msgstr "2 kolommen - 1/6"
+
+#: includes/shortcodes/column.php:65 includes/shortcodes/column.php:282
+#: includes/shortcodes/column.php:306 includes/shortcodes/column.php:331
+#: includes/shortcodes/column.php:356 includes/shortcodes/column.php:388
+#: includes/shortcodes/column.php:412 includes/shortcodes/column.php:437
+#: includes/shortcodes/column.php:462 includes/shortcodes/column.php:494
+#: includes/shortcodes/column.php:520 includes/shortcodes/column.php:545
+#: includes/shortcodes/column.php:576 includes/shortcodes/column.php:600
+#: includes/shortcodes/column.php:624 includes/shortcodes/column.php:648
+msgid "3 columns - 1/4"
+msgstr "3 kolommen - 1/4"
+
+#: includes/shortcodes/column.php:66 includes/shortcodes/column.php:283
+#: includes/shortcodes/column.php:307 includes/shortcodes/column.php:332
+#: includes/shortcodes/column.php:357 includes/shortcodes/column.php:389
+#: includes/shortcodes/column.php:413 includes/shortcodes/column.php:438
+#: includes/shortcodes/column.php:463 includes/shortcodes/column.php:495
+#: includes/shortcodes/column.php:521 includes/shortcodes/column.php:546
+#: includes/shortcodes/column.php:577 includes/shortcodes/column.php:601
+#: includes/shortcodes/column.php:625 includes/shortcodes/column.php:649
+msgid "4 columns - 1/3"
+msgstr "4 kolommen - 1/3"
+
+#: includes/shortcodes/column.php:67 includes/shortcodes/column.php:284
+#: includes/shortcodes/column.php:308 includes/shortcodes/column.php:333
+#: includes/shortcodes/column.php:358 includes/shortcodes/column.php:390
+#: includes/shortcodes/column.php:414 includes/shortcodes/column.php:439
+#: includes/shortcodes/column.php:464 includes/shortcodes/column.php:496
+#: includes/shortcodes/column.php:522 includes/shortcodes/column.php:547
+#: includes/shortcodes/column.php:578 includes/shortcodes/column.php:602
+#: includes/shortcodes/column.php:626 includes/shortcodes/column.php:650
+msgid "5 columns - 5/12"
+msgstr "5 kolommen - 5/12"
+
+#: includes/shortcodes/column.php:68 includes/shortcodes/column.php:285
+#: includes/shortcodes/column.php:309 includes/shortcodes/column.php:334
+#: includes/shortcodes/column.php:359 includes/shortcodes/column.php:391
+#: includes/shortcodes/column.php:415 includes/shortcodes/column.php:440
+#: includes/shortcodes/column.php:465 includes/shortcodes/column.php:497
+#: includes/shortcodes/column.php:523 includes/shortcodes/column.php:548
+#: includes/shortcodes/column.php:579 includes/shortcodes/column.php:603
+#: includes/shortcodes/column.php:627 includes/shortcodes/column.php:651
+msgid "6 columns - 1/2"
+msgstr "6 kolommen - 1/2"
+
+#: includes/shortcodes/column.php:69 includes/shortcodes/column.php:286
+#: includes/shortcodes/column.php:310 includes/shortcodes/column.php:335
+#: includes/shortcodes/column.php:360 includes/shortcodes/column.php:392
+#: includes/shortcodes/column.php:416 includes/shortcodes/column.php:441
+#: includes/shortcodes/column.php:466 includes/shortcodes/column.php:498
+#: includes/shortcodes/column.php:524 includes/shortcodes/column.php:549
+#: includes/shortcodes/column.php:580 includes/shortcodes/column.php:604
+#: includes/shortcodes/column.php:628 includes/shortcodes/column.php:652
+msgid "7 columns - 7/12"
+msgstr "7 kolommen - 7/12"
+
+#: includes/shortcodes/column.php:70 includes/shortcodes/column.php:287
+#: includes/shortcodes/column.php:311 includes/shortcodes/column.php:336
+#: includes/shortcodes/column.php:361 includes/shortcodes/column.php:393
+#: includes/shortcodes/column.php:417 includes/shortcodes/column.php:442
+#: includes/shortcodes/column.php:467 includes/shortcodes/column.php:499
+#: includes/shortcodes/column.php:525 includes/shortcodes/column.php:550
+#: includes/shortcodes/column.php:581 includes/shortcodes/column.php:605
+#: includes/shortcodes/column.php:629 includes/shortcodes/column.php:653
+msgid "8 columns - 2/3"
+msgstr "8 kolommen - 2/3"
+
+#: includes/shortcodes/column.php:71 includes/shortcodes/column.php:288
+#: includes/shortcodes/column.php:312 includes/shortcodes/column.php:337
+#: includes/shortcodes/column.php:362 includes/shortcodes/column.php:394
+#: includes/shortcodes/column.php:418 includes/shortcodes/column.php:443
+#: includes/shortcodes/column.php:468 includes/shortcodes/column.php:500
+#: includes/shortcodes/column.php:526 includes/shortcodes/column.php:551
+#: includes/shortcodes/column.php:582 includes/shortcodes/column.php:606
+#: includes/shortcodes/column.php:630 includes/shortcodes/column.php:654
+msgid "9 columns - 3/4"
+msgstr "9 kolommen - 3/4"
+
+#: includes/shortcodes/column.php:72 includes/shortcodes/column.php:289
+#: includes/shortcodes/column.php:313 includes/shortcodes/column.php:338
+#: includes/shortcodes/column.php:363 includes/shortcodes/column.php:395
+#: includes/shortcodes/column.php:419 includes/shortcodes/column.php:444
+#: includes/shortcodes/column.php:469 includes/shortcodes/column.php:501
+#: includes/shortcodes/column.php:527 includes/shortcodes/column.php:552
+#: includes/shortcodes/column.php:583 includes/shortcodes/column.php:607
+#: includes/shortcodes/column.php:631 includes/shortcodes/column.php:655
+msgid "10 columns - 5/6"
+msgstr "10 kolommen - 5/6"
+
+#: includes/shortcodes/column.php:73 includes/shortcodes/column.php:290
+#: includes/shortcodes/column.php:314 includes/shortcodes/column.php:339
+#: includes/shortcodes/column.php:364 includes/shortcodes/column.php:396
+#: includes/shortcodes/column.php:420 includes/shortcodes/column.php:445
+#: includes/shortcodes/column.php:470 includes/shortcodes/column.php:502
+#: includes/shortcodes/column.php:528 includes/shortcodes/column.php:553
+#: includes/shortcodes/column.php:584 includes/shortcodes/column.php:608
+#: includes/shortcodes/column.php:632 includes/shortcodes/column.php:656
+msgid "11 columns - 11/12"
+msgstr "11 kolommen - 11/12"
+
+#: includes/shortcodes/column.php:74 includes/shortcodes/column.php:291
+#: includes/shortcodes/column.php:315 includes/shortcodes/column.php:340
+#: includes/shortcodes/column.php:365 includes/shortcodes/column.php:397
+#: includes/shortcodes/column.php:421 includes/shortcodes/column.php:446
+#: includes/shortcodes/column.php:471 includes/shortcodes/column.php:503
+#: includes/shortcodes/column.php:529 includes/shortcodes/column.php:554
+#: includes/shortcodes/column.php:585 includes/shortcodes/column.php:609
+#: includes/shortcodes/column.php:633 includes/shortcodes/column.php:657
+msgid "12 columns - 1/1"
+msgstr "12 kolommen - 1/1"
+
+#: includes/shortcodes/column.php:260
+msgid "Device"
+msgstr "Apparaat"
+
+#: includes/shortcodes/column.php:261
+msgid "Offset"
+msgstr "Offset"
+
+#: includes/shortcodes/column.php:265
+msgid "Hide"
+msgstr "Verberg"
+
+#: includes/shortcodes/column.php:269
+msgid "Large desktop"
+msgstr "Grote desktop"
+
+#: includes/shortcodes/column.php:278 includes/shortcodes/column.php:303
+#: includes/shortcodes/column.php:327 includes/shortcodes/column.php:352
+#: includes/shortcodes/column.php:384 includes/shortcodes/column.php:409
+#: includes/shortcodes/column.php:433 includes/shortcodes/column.php:458
+#: includes/shortcodes/column.php:490 includes/shortcodes/column.php:516
+#: includes/shortcodes/column.php:541
+msgid "Inherit from smaller"
+msgstr "Overerven van kleiner"
+
+#: includes/shortcodes/column.php:279 includes/shortcodes/column.php:328
+#: includes/shortcodes/column.php:353 includes/shortcodes/column.php:385
+#: includes/shortcodes/column.php:434 includes/shortcodes/column.php:459
+#: includes/shortcodes/column.php:491 includes/shortcodes/column.php:517
+#: includes/shortcodes/column.php:542 includes/shortcodes/column.php:573
+#: includes/shortcodes/column.php:621 includes/shortcodes/column.php:645
+msgid "none"
+msgstr "geen"
+
+#: includes/shortcodes/column.php:375
+msgid "Desktop"
+msgstr "Desktop"
+
+#: includes/shortcodes/column.php:481
+msgid "Tablet"
+msgstr "Tablet"
+
+#: includes/shortcodes/column.php:507
+msgid "Value from width attribute."
+msgstr "Waarden van breedte attribuut"
+
+#: includes/shortcodes/column.php:564
+msgid "Phone"
+msgstr "Telefoon"
+
+#: includes/shortcodes/heading.php:89
+msgid "Heading"
+msgstr "Koptekst"
+
+#: includes/shortcodes/heading.php:99
+msgid "Heading Settings"
+msgstr "Koptekst instellingen"
+
+#: includes/shortcodes/heading.php:116
+msgid "Level"
+msgstr "niveau"
+
+#: includes/shortcodes/heading.php:125
+msgid "Heading 1"
+msgstr "Kop 1"
+
+#: includes/shortcodes/heading.php:126
+msgid "Heading 2"
+msgstr "Kop 2"
+
+#: includes/shortcodes/heading.php:127
+msgid "Heading 3"
+msgstr "Kop 3"
+
+#: includes/shortcodes/heading.php:128
+msgid "Heading 4"
+msgstr "Kop 4"
+
+#: includes/shortcodes/heading.php:129
+msgid "Heading 5"
+msgstr "Kop 5"
+
+#: includes/shortcodes/heading.php:130
+msgid "Heading 6"
+msgstr "Kop 6"
+
+#: includes/shortcodes/heading.php:159
+msgid "level:"
+msgstr "niveau:"
+
+#: includes/shortcodes/icon.php:123
+msgid "Icon Settings"
+msgstr "Icoon Instellingen"
+
+#: includes/shortcodes/icon.php:127 includes/shortcodes/icon.php:245
+msgid "Icon"
+msgstr "Icoon"
+
+#: includes/shortcodes/icon.php:149
+#, php-format
+msgid "Library \"%s\" could not be found."
+msgstr "Bibliotheek “%s” kan niet worden gevonden."
+
+#: includes/shortcodes/icon.php:218
+msgid "Unable to get file contents."
+msgstr "Het bestand kon niet worden ingelezen."
+
+#: includes/shortcodes/icon.php:227
+msgid "No Icons found."
+msgstr "Geen icoontjes gevonden."
+
+#: includes/shortcodes/icon.php:424
+msgid "- library -"
+msgstr "- bibliotheek -"
+
+#: includes/shortcodes/icon.php:430
+msgid "Search"
+msgstr "Zoek"
+
+#: includes/shortcodes/row.php:35
+msgid "Row"
+msgstr "Rij"
+
+#: includes/shortcodes/row.php:36
+msgid "A responsive row"
+msgstr "Een flexibele rij"
+
+#: includes/shortcodes/row.php:46
+msgid "Row Settings"
+msgstr "Rij Instellingen"
+
+#: includes/shortcodes/row.php:55
+msgid "Custom"
+msgstr "Aangepast"
+
+#: includes/shortcodes/row.php:62
+msgid "e.g. `1/3 + 2/3` creates 2 columns with one third and two third width."
+msgstr ""
+"bv. ‘ 1/3 + 2/3’ creëert 2 kolommen met één derde en twee derde breedte."
+
+#: includes/shortcodes/text.php:44
+msgid "Text block"
+msgstr "Tekstblok"
+
+#: includes/shortcodes/text.php:54
+msgid "Text Block Settings"
+msgstr "Tekstblok instellingen"
+
+#: includes/shortcodes/text.php:56
+msgid "Content"
+msgstr "Inhoud"
+
+#: includes/updater.php:99
+msgid "No actions found."
+msgstr "Geen acties gevonden."
+
+#: includes/updater.php:104
+msgid "Invalid action."
+msgstr "Ongeldige actie."
+
+#: includes/updater.php:167 includes/updater.php:178
+msgid "Table Layout Updater"
+msgstr "Tabel Opmaak Bewerker"
+
+#: includes/updater.php:183 includes/updater.php:236
+msgid "Database data needs to be updated."
+msgstr "Gegevens uit de database moet worden bijgewerkt."
+
+#: includes/updater.php:184
+msgid "Click the update button to update."
+msgstr "Klik op de knop om bij te werken."
+
+#: includes/updater.php:191
+msgid "Update complete."
+msgstr "Update voltooid."
+
+#: includes/updater.php:203
+msgid "No updates available."
+msgstr "Er zijn geen updates beschikbaar."
+
+#: includes/updater.php:237
+msgid "Go to the update page"
+msgstr "Ga naar de updatepagina"
+
+#: templates/component-picklist.php:17
+msgid "Components"
+msgstr "Onderdelen"
+
+#: templates/component-picklist.php:22
+msgid "Click a component to insert it into the editor."
+msgstr "Klik op een onderdeel om het aan de editor toe te voegen."
+
+#: templates/component-picklist.php:30
+msgid "Click to add"
+msgstr "Klik om toe te voegen"
+
+#. Plugin Name of the plugin/theme
+msgid "Responsive Table Layout"
+msgstr "Responsieve Tabel Opmaak"
+
+#. Description of the plugin/theme
+msgid ""
+"Provides an easy- and user friendly way to make your site's content more "
+"responsive."
+msgstr ""
+"Biedt een gemakkelijke en gebruiksvriendelijke manier aan om de inhoud van "
+"je website responsief te maken"
+
+#. Author of the plugin/theme
+msgid "Maarten Menten"
+msgstr "Maarten Menten"
+
+#. Author URI of the plugin/theme
+msgid "https://www.ivalue.be/blog/author/mmenten/"
+msgstr "https://www.ivalue.be/blog/author/mmenten/"

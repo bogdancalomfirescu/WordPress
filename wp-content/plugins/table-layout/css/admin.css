@@ -1,0 +1,103 @@
+/*
+------------------------------------------------------------------------------------------------------------------------
+ General
+------------------------------------------------------------------------------------------------------------------------
+*/
+
+.button.mmtl-hide,
+.mmtl-hide,
+.mmtl-ajax-show-on-complete
+{
+    display: none;
+}
+
+.mmtl-screen .notice
+{
+    margin: 15px 0;
+}
+
+/*
+------------------------------------------------------------------------------------------------------------------------
+ Loader
+------------------------------------------------------------------------------------------------------------------------
+*/
+
+.mmtl-spin 
+{
+    -webkit-animation: mmtl_spin 1.5s linear infinite;
+    -moz-animation: mmtl_spin 1.5s linear infinite;
+    animation: mmtl_spin 1.5s linear infinite
+}
+
+@-moz-keyframes mmtl_spin 
+{
+    100% 
+    {
+        -moz-transform: rotate(360deg)
+    }
+}
+
+@-webkit-keyframes mmtl_spin 
+{
+    100% 
+    {
+        -webkit-transform: rotate(360deg)
+    }
+}
+
+@keyframes mmtl_spin 
+{
+    100% 
+    {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg)
+    }
+}
+
+.mmtl-loader
+{
+    display: none;
+}
+
+.mmtl-loader,
+.mmtl-loader > span
+{
+    line-height: 20px;
+    width: 20px;
+    height: 20px;
+    font-size: 15px;
+}
+
+.mmtl-loader > span
+{
+   margin-top: 4px;
+   
+}
+
+p.submit .mmtl-loader
+{
+    margin-left: 5px;
+}
+
+/*
+------------------------------------------------------------------------------------------------------------------------
+ Updater
+------------------------------------------------------------------------------------------------------------------------
+*/
+
+#mmtl-updater-screen .mmtl-result
+{
+    position: relative;
+    padding-left: 30px;
+}
+
+#mmtl-updater-screen .mmtl-result-icon
+{
+    position: absolute;
+    left: 0;
+}
+
+#mmtl-updater-screen .mmtl-result-error
+{
+    color: #d54e21;
+}
