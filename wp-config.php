@@ -4,7 +4,7 @@
  *
  * This file contains the following configurations:
  *
- * * MySQL settings
+ * * MySQL settings t
  * * Secret keys
  * * Database table prefix
  * * ABSPATH
