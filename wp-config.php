@@ -1,10 +1,10 @@
 <?php
 /**
- * The base configuration for WordPress deployed on Kermit
+ * The base configuration for WordPress deployed on Openshift
  *
  * This file contains the following configurations:
  *
- * * MySQL settings t
+ * * MySQL settings
  * * Secret keys
  * * Database table prefix
  * * ABSPATH
@@ -43,6 +43,7 @@ define('AUTH_SALT',        'put your unique phrase here');
 define('SECURE_AUTH_SALT', 'put your unique phrase here');
 define('LOGGED_IN_SALT',   'put your unique phrase here');
 define('NONCE_SALT',       'put your unique phrase here');
+define('FS_METHOD',        'direct');
 /**#@-*/
 /**
  * WordPress Database Table prefix.
